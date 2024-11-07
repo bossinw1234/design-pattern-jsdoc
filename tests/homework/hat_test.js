@@ -6,7 +6,7 @@ import { Hat, StrawHat } from "../../src/design_pattern/้homework/hat";
 describe('Hat class tests', () => {
   it('should create a Hat object correctly', () => {
     const hat = new Hat('blue', 'cotton', 58.0);
-    expect(hat.color).toBe('blue');
+    expect(hat.color).toBe('blue'); 
     expect(hat.material).toBe('cotton');
     expect(hat.size).toBe(58.0);
   });
